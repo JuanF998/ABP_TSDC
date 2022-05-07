@@ -1,9 +1,5 @@
 # Pruebas E2E con Kraken sobre Ghost App
 
-## Intsrucciones de Ejecución de Pruebas con Kraken
-
-
-
 ## Funcionalidades Bajo Prueba:
 
 1. Eliminar página:Funcionalidad para que el administrador del contenido del sitio web pueda eliminar una página.
@@ -49,7 +45,10 @@
 * **Scenario19.feature:** Como admninistrador de Ghost iniciar sesión con datos correctos, para cambiar el tema de oscuro a claro o de claro a oscuro, seguido cierrar sesión y finalmente iniciar sesión para comprabar que el fondo seleccionado.
 * **Scenario20.feature:** Como admninistrador de Ghost iniciar sesión con datos correctos, para crear una nuevo tag, actualizar su nombre y descripción y finalmente eliminar el tag.
 
+## Instrucciones de Instalación de Ghost V4.42.0
 
+
+## Instrucciones de Ejecución de Pruebas con Kraken
 ## Pros y Contras de Kraken
 | **Pros**                                                                                                                                                                     | **Contras**                                                                                                                              |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------|

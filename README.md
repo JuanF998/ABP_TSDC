@@ -6,13 +6,14 @@
 
 ## Funcionalidades Bajo Prueba:
 
-1.    Eliminar página: Funcionalidad para que el administrador del contenido del sitio web pueda eliminar una página.
-2.    Crear nuevo post: Funcionalidad para que el administrador del contenido del sitio web pueda agregar nuevos posts.
-3.    Crear una página: Funcionalidad para que el administrador del contenido del sitio web pueda crear una página.
-4.    Iniciar sesión como miembro del staff: Funcionalidad para que un usuario del staff pueda inciar sesión.
-5.    Crear suscripción o membresía: Funcionalidad para suscribirse al contenido del sitio web con nombre y correo, con el propósito de acceder a contenido del sitio exclusivo o segmentado. 
-6.    Consultar post: Funcionalidad para que un usuario del sitio web pueda visualizar un post específico previamente publicado por el staff del sitio web.
-7.    Consultar autor:Funcionalidad para que un usuario del sitio web pueda visualizar un el autor de un post específico previamente publicado por el staff del sitio web.
+1. **Eliminar página:** Funcionalidad para que el administrador del contenido del sitio web pueda eliminar una página.
+2. **Crear nuevo post:** Funcionalidad para que el administrador del contenido del sitio web pueda agregar nuevos posts.
+3. **Crear una página:** Funcionalidad para que el administrador del contenido del sitio web pueda crear una página.
+4. **Iniciar sesión como miembro del staff:** Funcionalidad para que un usuario del staff pueda inciar sesión.
+5. **Crear suscripción o membresía:** Funcionalidad para suscribirse al contenido del sitio web con nombre y correo, con el propósito de acceder a contenido del sitio exclusivo o segmentado. 
+6. **Consultar post:** Funcionalidad para que un usuario del sitio web pueda visualizar un post específico previamente publicado por el staff del sitio web.
+7. **Consultar autor:** Funcionalidad para que un usuario del sitio web pueda visualizar un el autor de un post específico previamente publicado por el staff del sitio web.
+8. **Crear miembro:**
 
 ## Escenarios de Prueba
 

@@ -86,7 +86,8 @@ Ejecute la ayuda de Ghost para obtener una lista de los comandos disponibles o e
 ```
 1. Clonar el presente respositorio con git clone en su equipo.
 2. Abrir desde la terminal la carpeta raíz del repositorio y ejcutar el comando npm install.
-3. Modificar los valores de las llaves de "USERNAME1" y "PASSWORD1" \del archivo nombrado "properties.json" por las credenciales configuradas para la cuenta de administración de Ghost cuando lo instaló y ejecutó por primera vez.
+3. Modificar los valores de las llaves de "USERNAME1" y "PASSWORD1" 
+del archivo nombrado "properties.json" por las credenciales configuradas para la cuenta de administración de Ghost cuando lo instaló y ejecutó por primera vez.
 4. Ejecutar el siguiente comando desde la terminal para verificar que se cuentan con los requisitos para ejecuatar Kraken: kraken-node doctor.
 5. Ejecuter el siguiente comando para correr las pruebas: npx kraken-node run
 ```

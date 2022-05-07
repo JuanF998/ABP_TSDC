@@ -1,4 +1,4 @@
-# Pruebas E2E con Kaken sobre Ghost App
+# Pruebas E2E con Kraken sobre Ghost App
 
 ## Intsrucciones de Ejecución de Pruebas con Kraken
 

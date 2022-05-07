@@ -69,6 +69,19 @@ ghost install 4.42.0 --local
 ```
 ¡Eso es todo! Estás listo.
 
+### Iniciar y detener 
+Ghost se ejecuta en un proceso en segundo plano separado y permanece ejecutándose hasta que lo detenga o reinicie su computadora. Así que puede encontrar estos comandos útiles para manejarlo:
+```
+• ghost stop para detener Ghost
+• ghost start para iniciar Ghost
+• ghost log ver registros (logs).
+• ghost ls para enumerar todos los blogs de Ghost en ejecución.
+```
+
+Ejecute la ayuda de Ghost para obtener una lista de los comandos disponibles o explore la [documentación completa de Ghost-CLI](https://ghost.org/docs/ghost-cli/).
+
+<!-- End GHOST documentation  -->
+
 ## Instrucciones de Ejecución de Pruebas con Kraken
 
 ## Pros y Contras de Kraken

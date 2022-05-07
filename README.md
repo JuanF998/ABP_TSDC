@@ -93,7 +93,7 @@ para la cuenta de administración de Ghost cuando lo instaló y ejecutó por pri
 con los requisitos para ejecuatar Kraken: kraken-node doctor.
 5. Ejecuter el siguiente comando para correr las pruebas: npx kraken-node run
 ```
-**Nota:** En la ubicación Ghost_ABP_Kraken/features/storage_all_features/ podrá encontrar todos los escenarios creados para nuestra ABP y en la ubicación Ghost_ABP_Kraken/features/ solo aparece el escenario que se desea probar (Ejemplo: Scenario20.feature), por lo que si desea probar todos los escenarios debe copiar de la carpeta storage_all_features el escenario a probar, pegarlo en la carpeta features y eliminar el escenario que estaba previamente en esa carpeta para probar el nuevo escenario pegado. Esto lo indicamos porque al tener todos los escenarios en la carpeta feature y ejecutar el comado npx kraken-node run se genera un error al cambiar de escenario.
+**Nota:** En la ubicación Ghost_ABP_Kraken/features/storage_all_features/ podrá encontrar todos los escenarios creados para nuestra ABP y en la ubicación Ghost_ABP_Kraken/features/ solo aparece el escenario que se desea probar (Ejemplo: Scenario20.feature), por lo que si desea probar todos los escenarios debe copiar de la carpeta storage_all_features el escenario a probar, pegarlo en la carpeta features y eliminar el escenario que estaba previamente en esa carpeta para probar el nuevo escenario pegado. Esto lo indicamos porque al tener todos los escenarios en la carpeta features y ejecutar el comado npx kraken-node run se genera un error al cambiar de escenario.
 
 
 ## Pros y Contras de Kraken

@@ -10,9 +10,9 @@
 2.    Crear nuevo post: Funcionalidad para que el administrador del contenido del sitio web pueda agregar nuevos posts.
 3.    Crear una página: Funcionalidad para que el administrador del contenido del sitio web pueda crear una página.
 4.    Iniciar sesión como miembro del staff: Funcionalidad para que un usuario del staff pueda inciar sesión.
-5.    Crear suscripción o membresía: Funcionalidad para suscribirse al contenido del sitio web con nombre y correo. 
-6.    Consultar post
-7.    Consultar autor
+5.    Crear suscripción o membresía: Funcionalidad para suscribirse al contenido del sitio web con nombre y correo, con el propósito de acceder a contenido del sitio exclusivo o segmentado. 
+6.    Consultar post: Funcionalidad para que un usuario del sitio web pueda visualizar un post específico previamente publicado por el staff del sitio web.
+7.    Consultar autor:Funcionalidad para que un usuario del sitio web pueda visualizar un el autor de un post específico previamente publicado por el staff del sitio web.
 
 ## Escenarios de Prueba
 
@@ -26,14 +26,14 @@
 * **Scenario8.feature:** Como admninistrador de Ghost iniciar sesión con datos correctos, para crear un nuevo post público y eliminar post.
 * **Scenario9.feature:** Como admninistrador de Ghost iniciar sesión con datos correctos, para crear un nuevo miembro y eliminar miembro.
 * **Scenario10.feature:** Como admninistrador de Ghost iniciar sesión con datos correctos, para crear un nuevo post público, luego modificar el nombre y contenido de texto del post y visualizar cambios aplicados.
-* **Scenario11.feature:** Como admninistrador de Ghost iniciar sesión con datos correctos, para crear una nueva página, posterior modificar el nombre y contenido de texto de esta
-* **Scenario12.feature:** Como admninistrador de Ghost iniciar sesión con datos correctos, para invitar una nueva persona al staff del sitio y visualizar que se agrega efectivamente como contribuidor 
-* **Scenario13.feature:** Como admninistrador de Ghost iniciar sesión con datos correctos, para crear un nuevo post, no se selecciona la opcion guardar y finalemnte se da en el boton regresar a la lista de post para ver que quedo como borrador
-* **Scenario14.feature:** Como admninistrador de Ghost iniciar sesión con datos correctos, para crear una nueva tag
-* **Scenario15.feature:** Como admninistrador de Ghost iniciar sesión con datos correctos, para crear un nuevo miembro y finalmente se procede a editar cambiandole el nombre
-* **Scenario16.feature:** Como admninistrador de Ghost iniciar sesión con datos correctos, para crear una nueva tag y finalmente se da en la opción de eliminar tag
-* **Scenario17.feature:** Como admninistrador de Ghost iniciar sesión con datos correctos, para cerrar la sesión
-* **Scenario18.feature:** Como admninistrador de Ghost iniciar sesión con datos correctos, para invitar una nueva persona al staff del sitio, visualizar que se muestra como contribuidor y finalmente eliminar la invitación
+* **Scenario11.feature:** Como admninistrador de Ghost iniciar sesión con datos correctos, para crear una nueva página, posterior modificar el nombre y contenido de texto de esta.
+* **Scenario12.feature:** Como admninistrador de Ghost iniciar sesión con datos correctos, para invitar una nueva persona al staff del sitio y visualizar que se agrega efectivamente como contribuidor .
+* **Scenario13.feature:** Como admninistrador de Ghost iniciar sesión con datos correctos, para crear un nuevo post, no se selecciona la opcion guardar y finalemnte se da en el boton regresar a la lista de post para ver que quedo como borrador.
+* **Scenario14.feature:** Como admninistrador de Ghost iniciar sesión con datos correctos, para crear una nueva tag.
+* **Scenario15.feature:** Como admninistrador de Ghost iniciar sesión con datos correctos, para crear un nuevo miembro y finalmente se procede a editar cambiandole el nombre.
+* **Scenario16.feature:** Como admninistrador de Ghost iniciar sesión con datos correctos, para crear una nueva tag y finalmente se da en la opción de eliminar tag.
+* **Scenario17.feature:** Como admninistrador de Ghost iniciar sesión con datos correctos, para cerrar la sesión.
+* **Scenario18.feature:** Como admninistrador de Ghost iniciar sesión con datos correctos, para invitar una nueva persona al staff del sitio, visualizar que se muestra como contribuidor y finalmente eliminar la invitación.
 * **Scenario19.feature:** Como admninistrador de Ghost iniciar sesión con datos correctos, para cambiar el tema de oscuro a claro o de claro a oscuro, seguido cierrar sesión y finalmente iniciar sesión para comprabar que el fondo seleccionado.
 * **Scenario20.feature:** Como admninistrador de Ghost iniciar sesión con datos correctos, para crear una nuevo tag, actualizar su nombre y descripción y finalmente eliminar el tag.
 

@@ -7,17 +7,16 @@
 ## Funcionalidades Bajo Prueba:
 
 1. Eliminar página:Funcionalidad para que el administrador del contenido del sitio web pueda eliminar una página.
-2. Crear nuevo post: Funcionalidad para que el administrador del contenido del sitio web pueda agregar nuevos posts.
-3. Crear una página: Funcionalidad para que el administrador del contenido del sitio web pueda crear una página.
-4. Iniciar sesión como miembro del staff: Funcionalidad para que un usuario del staff pueda inciar sesión.
-5. Consultar post: Funcionalidad para que un usuario del sitio web pueda visualizar un post específico previamente publicado por el staff del sitio web.
-6. Consultar autor: Funcionalidad para que un usuario del sitio web pueda visualizar un el autor de un post específico previamente publicado por el staff del sitio web.
-7. Crear miembro:  
-8. Eliminar miembro:
-9. Modificar miembre:
-10. Eliminar página:
-11. Eliminar post:
-12. Modificar post:
+2. Crear una página: Funcionalidad para que el administrador del contenido del sitio web pueda crear una página.
+3. Crear nuevo post: Funcionalidad para que el administrador del contenido del sitio web pueda agregar nuevos posts.
+4. Eliminar post:
+5. Modificar post:
+7. Iniciar sesión como miembro del staff: Funcionalidad para que un usuario del staff pueda inciar sesión.
+8. Consultar post: Funcionalidad para que un usuario del sitio web pueda visualizar un post específico previamente publicado por el staff del sitio web.
+9. Consultar autor: Funcionalidad para que un usuario del sitio web pueda visualizar un el autor de un post específico previamente publicado por el staff del sitio web.
+10. Crear miembro:  
+11. Eliminar miembro:
+12. Modificar miembre:
 13. Modificar página:
 14. Invitar miembro de staff:
 15. Revocar invitación miembro de staff:

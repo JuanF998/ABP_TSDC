@@ -87,7 +87,7 @@ Ejecute la ayuda de Ghost para obtener una lista de los comandos disponibles o e
 
 ```
 1. Clonar el presente respositorio con git clone en su equipo.
-2. Validar que tenga un versión de nodeJS > 12.
+2. Validar que tenga un versión de nodeJS > 12 o instalarla si es el caso.
 3. Abrir desde la terminal la carpeta raíz del repositorio y ejcutar el comando npm install.
 4. Modificar los valores de las llaves de "USERNAME1" y "PASSWORD1" 
 del archivo nombrado "properties.json" por las credenciales configuradas 

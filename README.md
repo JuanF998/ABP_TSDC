@@ -83,6 +83,8 @@ Ejecute la ayuda de Ghost para obtener una lista de los comandos disponibles o e
 <!-- End GHOST documentation  -->
 
 ## Instrucciones de Ejecución de Pruebas con Kraken
+![Kraken](https://user-images.githubusercontent.com/98760318/167264957-0f6dc3ea-ffec-4c1f-968c-64f5ff796eca.PNG)
+
 ```
 1. Clonar el presente respositorio con git clone en su equipo.
 2. Abrir desde la terminal la carpeta raíz del repositorio y ejcutar el comando npm install.

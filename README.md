@@ -97,6 +97,8 @@ con los requisitos para ejecuatar Kraken: kraken-node doctor.
 ```
 **Nota:** En la ubicación Ghost_ABP_Kraken/features/storage_all_features/ podrá encontrar todos los escenarios creados para nuestra ABP y en la ubicación Ghost_ABP_Kraken/features/ solo aparece el escenario que se desea probar (Ejemplo: Scenario20.feature), por lo que si desea probar todos los escenarios debe copiar de la carpeta storage_all_features el escenario a probar, pegarlo en la carpeta features y eliminar el escenario que estaba previamente en esa carpeta para probar el nuevo escenario pegado. Esto lo indicamos porque al tener todos los escenarios en la carpeta features y ejecutar el comado npx kraken-node run se genera un error al cambiar de escenario.
 
+Para más información puede consultar la documentación oficial de la herramienta Kraken visite el siguiente enlace: https://thesoftwaredesignlab.github.io/Kraken/ 
+
 
 ## Pros y Contras de Kraken
 | **Pros**                                                                                                                                                                     | **Contras**                                                                                                                              |

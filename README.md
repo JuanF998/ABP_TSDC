@@ -10,10 +10,22 @@
 2. Crear nuevo post: Funcionalidad para que el administrador del contenido del sitio web pueda agregar nuevos posts.
 3. Crear una página: Funcionalidad para que el administrador del contenido del sitio web pueda crear una página.
 4. Iniciar sesión como miembro del staff: Funcionalidad para que un usuario del staff pueda inciar sesión.
-5. Crear suscripción o membresía: Funcionalidad para suscribirse al contenido del sitio web con nombre y correo, con el propósito de acceder a contenido del sitio exclusivo o segmentado. 
-6. Consultar post: Funcionalidad para que un usuario del sitio web pueda visualizar un post específico previamente publicado por el staff del sitio web.
-7. Consultar autor: Funcionalidad para que un usuario del sitio web pueda visualizar un el autor de un post específico previamente publicado por el staff del sitio web.
-8. Crear miembro: 
+5. Consultar post: Funcionalidad para que un usuario del sitio web pueda visualizar un post específico previamente publicado por el staff del sitio web.
+6. Consultar autor: Funcionalidad para que un usuario del sitio web pueda visualizar un el autor de un post específico previamente publicado por el staff del sitio web.
+7. Crear miembro:  
+8. Eliminar miembro:
+9. Modificar miembre:
+10. Eliminar página:
+11. Eliminar post:
+12. Modificar post:
+13. Modificar página:
+14. Invitar miembro de staff:
+15. Revocar invitación miembro de staff:
+16. Crear tag:
+17. Editar tag:
+18. Eliminar tag:
+19. Cerrar sesión:
+20. Cambiar tema de visualización:
 
 ## Escenarios de Prueba
 

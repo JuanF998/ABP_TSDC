@@ -2,9 +2,9 @@
 
 ## Funcionalidades Bajo Prueba:
 
-1. Eliminar página: Funcionalidad para que el administrador del contenido del sitio web pueda eliminar una página.
-2. Crear una página: Funcionalidad para que el administrador del contenido del sitio web pueda crear una página.
-3. Modificar página: Funcionalidad para que el administrador del contenido del sitio web pueda modificar una página.
+**1. Eliminar página:** Funcionalidad para que el administrador del contenido del sitio web pueda eliminar una página.\
+2. Crear una página: Funcionalidad para que el administrador del contenido del sitio web pueda crear una página.\
+3. Modificar página: Funcionalidad para que el administrador del contenido del sitio web pueda modificar una página.\
 4. Crear nuevo post: Funcionalidad para que el administrador del contenido del sitio web pueda crear un nuevo post.
 5. Eliminar post: Funcionalidad para que el administrador del contenido del sitio web pueda eliminar un post existente.
 7. Modificar post: Funcionalidad para que el administrador del contenido del sitio web pueda modificar un post existente.

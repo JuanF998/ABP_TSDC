@@ -47,8 +47,34 @@
 
 ## Instrucciones de Instalación de Ghost V4.42.0
 
+### Inicio rápido 
+
+Si desea ejecutar su propia instancia de Ghost, en la mayoría de los casos, la mejor manera es utilizar nuestro **CLI tool**
+
+```
+npm install ghost-cli -g
+```
+&nbsp;
+Luego, si instala localmente, agregue el indicador `local` para comenzar a funcionar en menos de un minuto - [Local install docs](https://ghost.org/docs/install/local/)
+```
+ghost install local
+```
+o en un servidor ejecute la instalación completa, incluida la configuración automática de SSL usando LetsEncrypt - [Production install docs](https://ghost.org/docs/install/ubuntu/)
+
+```
+ghost install
+```
+
+Adicionalmente, para instalar una versión local especifica se seguirá el siguiente comando, para nuestro caso la versión utilizada es la 4.42.0.
+
+```
+ghost install 4.42.0 --local
+```
+
+¡Eso es todo! Estás listo.
 
 ## Instrucciones de Ejecución de Pruebas con Kraken
+
 ## Pros y Contras de Kraken
 | **Pros**                                                                                                                                                                     | **Contras**                                                                                                                              |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------|

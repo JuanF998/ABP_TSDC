@@ -1,5 +1,7 @@
 # Pruebas E2E con Kraken sobre Ghost App
 
+Este repositorio contiene diferentes pruebas E2E realizadas a la apliación Ghost usando la Kraken, la cual es una herramienta de pruebas E2E web y Android automatizada de código abierto que admite y valida escenarios que implican la intercomunicación entre dos o más usuarios. Funciona en forma de caja negra, lo que significa que no es necesario tener acceso al código fuente de la aplicación, sino que se puede ejecutar con la URL de la página web. A continuación podrá encontrar las difrentes duncionalidades probadas, los escenarios evaluados y todo lo necesario para poder ejecutar en su ambiente de trabajo las pruebas realizadas.
+
 ## Funcionalidades Bajo Prueba:
 
 **1. Eliminar página:** Funcionalidad para que el administrador del contenido del sitio web pueda eliminar una página.\

@@ -3,24 +3,24 @@
 ## Funcionalidades Bajo Prueba:
 
 **1. Eliminar página:** Funcionalidad para que el administrador del contenido del sitio web pueda eliminar una página.\
-2. Crear una página: Funcionalidad para que el administrador del contenido del sitio web pueda crear una página.\
-3. Modificar página: Funcionalidad para que el administrador del contenido del sitio web pueda modificar una página.\
-4. Crear nuevo post: Funcionalidad para que el administrador del contenido del sitio web pueda crear un nuevo post.
-5. Eliminar post: Funcionalidad para que el administrador del contenido del sitio web pueda eliminar un post existente.
-7. Modificar post: Funcionalidad para que el administrador del contenido del sitio web pueda modificar un post existente.
-8. Consultar post: Funcionalidad para que un usuario del sitio web pueda visualizar un post específico previamente publicado por el staff del sitio web.
-9. Iniciar sesión como miembro del staff: Funcionalidad para que un usuario del staff pueda iniciar sesión.
-10. Cerrar sesión como miembro del staff: Funcionalidad para que un usuario del staff que tenga activa su sesión pueda cerrar sesión.
-11. Consultar autor: Funcionalidad para que un usuario del sitio web pueda visualizar un el autor de un post específico previamente publicado por el staff del sitio web.
-12. Crear miembro: Funcionalidad para que el administrador del contenido del sitio web pueda agregar un nuevo miembro de forma manual.
-13. Eliminar miembro: Funcionalidad para que el administrador del contenido del sitio web pueda eliminar un miembro existente.
-14. Modificar miembro: Funcionalidad para que el administrador del contenido del sitio web pueda modificar un miembro existente.
-15. Invitar miembro de staff: Funcionalidad para invitar colaboradores o usuarios de tipo autor, editor y administrador de contenido del sitio web.
-16. Revocar invitación miembro de staff: Funcionalidad para revocar la invitación existente para colaboradores o usuarios de tipo autor, editor y administrador de contenido del sitio web.
-17. Crear tag: Funcionalidad para que el administrador del contenido del sitio web pueda crear un nuevo tag.:
-18. Editar tag: Funcionalidad para que el administrador del contenido del sitio web pueda editar un tag existente.
-19. Eliminar tag: Funcionalidad para que el administrador del contenido del sitio web pueda eliminar un tag existente.
-20. Cambiar tema de visualización: Funcionalidad para que el administrador del contenido del sitio web pueda cambiar el tema de oscuro a claro o de claro a oscuro.
+**2. Crear una página:** Funcionalidad para que el administrador del contenido del sitio web pueda crear una página.\
+**3. Modificar página:** Funcionalidad para que el administrador del contenido del sitio web pueda modificar una página.\
+**4. Crear nuevo post:** Funcionalidad para que el administrador del contenido del sitio web pueda crear un nuevo post.\
+**5. Eliminar post:** Funcionalidad para que el administrador del contenido del sitio web pueda eliminar un post existente.\
+**7. Modificar post:** Funcionalidad para que el administrador del contenido del sitio web pueda modificar un post existente.\
+**8. Consultar post:** Funcionalidad para que un usuario del sitio web pueda visualizar un post específico previamente publicado por el staff del sitio web.\
+**9. Iniciar sesión como miembro del staff:** Funcionalidad para que un usuario del staff pueda iniciar sesión.\
+**10. Cerrar sesión como miembro del staff:** Funcionalidad para que un usuario del staff que tenga activa su sesión pueda cerrar sesión.\
+**11. Consultar autor:** Funcionalidad para que un usuario del sitio web pueda visualizar un el autor de un post específico previamente publicado por el staff del sitio web.\
+**12. Crear miembro:** Funcionalidad para que el administrador del contenido del sitio web pueda agregar un nuevo miembro de forma manual.\
+**13. Eliminar miembro:** Funcionalidad para que el administrador del contenido del sitio web pueda eliminar un miembro existente.\
+**14. Modificar miembro:** Funcionalidad para que el administrador del contenido del sitio web pueda modificar un miembro existente.\
+**15. Invitar miembro de staff:** Funcionalidad para invitar colaboradores o usuarios de tipo autor, editor y administrador de contenido del sitio web.\
+**16. Revocar invitación miembro de staff:** Funcionalidad para revocar la invitación existente para colaboradores o usuarios de tipo autor, editor y administrador de contenido del sitio web.\
+**17. Crear tag:** Funcionalidad para que el administrador del contenido del sitio web pueda crear un nuevo tag.\
+**18. Editar tag:** Funcionalidad para que el administrador del contenido del sitio web pueda editar un tag existente.\
+**19. Eliminar tag:** Funcionalidad para que el administrador del contenido del sitio web pueda eliminar un tag existente.\
+**20. Cambiar tema de visualización:** Funcionalidad para que el administrador del contenido del sitio web pueda cambiar el tema de oscuro a claro o de claro a oscuro.
 
 ## Escenarios de Prueba
 
@@ -35,7 +35,7 @@
 * **Scenario9.feature:** Como admninistrador de Ghost iniciar sesión con datos correctos, para crear un nuevo miembro y eliminar miembro.
 * **Scenario10.feature:** Como admninistrador de Ghost iniciar sesión con datos correctos, para crear un nuevo post público, luego modificar el nombre y contenido de texto del post y visualizar cambios aplicados.
 * **Scenario11.feature:** Como admninistrador de Ghost iniciar sesión con datos correctos, para crear una nueva página, posterior modificar el nombre y contenido de texto de esta.
-* **Scenario12.feature:** Como admninistrador de Ghost iniciar sesión con datos correctos, para invitar una nueva persona al staff del sitio y visualizar que se agrega efectivamente como contribuidor .
+* **Scenario12.feature:** Como admninistrador de Ghost iniciar sesión con datos correctos, para invitar una nueva persona al staff del sitio y visualizar que se agrega efectivamente como contribuidor.
 * **Scenario13.feature:** Como admninistrador de Ghost iniciar sesión con datos correctos, para crear un nuevo post, no se selecciona la opcion guardar y finalemnte se da en el boton regresar a la lista de post para ver que quedo como borrador.
 * **Scenario14.feature:** Como admninistrador de Ghost iniciar sesión con datos correctos, para crear una nueva tag.
 * **Scenario15.feature:** Como admninistrador de Ghost iniciar sesión con datos correctos, para crear un nuevo miembro y finalmente se procede a editar cambiandole el nombre.

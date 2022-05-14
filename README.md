@@ -114,15 +114,7 @@ con los requisitos para ejecuatar Kraken: kraken-node doctor.
 ![Kraken](https://user-images.githubusercontent.com/98760318/167264957-0f6dc3ea-ffec-4c1f-968c-64f5ff796eca.PNG)
 
 ```
-1. Clonar el presente respositorio con git clone en su equipo.
-2. Validar que tenga un versión de nodeJS > 12 o instalarla si es el caso.
-3. Abrir desde la terminal la carpeta raíz del repositorio y ejcutar el comando npm install.
-4. Modificar los valores de las llaves de "USERNAME1" y "PASSWORD1" 
-del archivo nombrado "properties.json" por las credenciales configuradas 
-para la cuenta de administración de Ghost cuando lo instaló y ejecutó por primera vez.
-5. Ejecutar el siguiente comando desde la terminal para verificar que se cuentan 
-con los requisitos para ejecuatar Kraken: kraken-node doctor.
-6. Ejecuter el siguiente comando para correr las pruebas: npx kraken-node run
+Si ya ejecutó los pasos de  las Instrucciones de Ejecución de Pruebas con Kraken en la Versión 4.42 de Ghost, solo revise la siguiente nota, de lo contrario debe ejecutar las Instrucciones de Ejecución de Pruebas con Kraken en la Versión 4.42.
 ```
 **Nota:** En la ubicación Ghost_ABP_Kraken/features/storage_all_features_342/ podrá encontrar todos los escenarios creados para nuestra ABP en su versión 3.42 y en la ubicación Ghost_ABP_Kraken/features/ solo aparece el escenario que se desea probar (Ejemplo: Scenario20.feature), por lo que si desea probar todos los escenarios debe copiar de la carpeta storage_all_features_342 el escenario a probar, pegarlo en la carpeta features y eliminar el escenario que estaba previamente en esa carpeta para probar el nuevo escenario pegado. Esto lo indicamos porque al tener todos los escenarios en la carpeta features y ejecutar el comado npx kraken-node run se genera un error al cambiar de escenario.
 

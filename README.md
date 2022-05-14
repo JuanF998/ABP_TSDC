@@ -65,7 +65,7 @@ Este repositorio contiene diferentes pruebas E2E realizadas a la apliación Ghos
 **4. Modificar post:** Funcionalidad para que el administrador del contenido del sitio web pueda modificar un post existente.\
 **5. Consultar post:** Funcionalidad para que un usuario del sitio web pueda visualizar un post específico previamente publicado por el staff del sitio web.\
 **6. Iniciar sesión como miembro del staff:** Funcionalidad para que un usuario del staff pueda iniciar sesión.\
-**7. Invitar miembro de staff:** Funcionalidad para invitar colaboradores o usuarios de tipo autor, editor y administrador de contenido del sitio web.\
+**7. Invitar miembro de staff:** Funcionalidad para invitar colaboradores o usuarios de tipo autor, editor y administrador de contenido del sitio web.
 
 ## Escenarios de Prueba Versión 3.42
 

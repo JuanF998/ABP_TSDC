@@ -57,6 +57,24 @@ Este repositorio contiene diferentes pruebas E2E realizadas a la apliación Ghos
 * **Scenario19.feature:** Como admninistrador de Ghost iniciar sesión con datos correctos, para cambiar el tema de oscuro a claro o de claro a oscuro, seguido cierrar sesión y finalmente iniciar sesión para comprabar que el fondo seleccionado.
 * **Scenario20.feature:** Como admninistrador de Ghost iniciar sesión con datos correctos, para crear una nuevo tag, actualizar su nombre y descripción y finalmente eliminar el tag.
 
+## Funcionalidades Bajo Prueba Versión 3.42
+
+**1. Crear una página:** Funcionalidad para que el administrador del contenido del sitio web pueda crear una página.\
+**2. Modificar página:** Funcionalidad para que el administrador del contenido del sitio web pueda modificar una página.\
+**3. Crear nuevo post:** Funcionalidad para que el administrador del contenido del sitio web pueda crear un nuevo post.\
+**4. Modificar post:** Funcionalidad para que el administrador del contenido del sitio web pueda modificar un post existente.\
+**5. Consultar post:** Funcionalidad para que un usuario del sitio web pueda visualizar un post específico previamente publicado por el staff del sitio web.\
+**6. Iniciar sesión como miembro del staff:** Funcionalidad para que un usuario del staff pueda iniciar sesión.\
+**7. Invitar miembro de staff:** Funcionalidad para invitar colaboradores o usuarios de tipo autor, editor y administrador de contenido del sitio web.\
+
+## Escenarios de Prueba Versión 3.42
+
+* **Scenario3.feature:** Como admninistrador de Ghost iniciar sesión con datos correctos, y crear un nuevo post público que pueda ser consultado luego.
+* **Scenario6.feature:** Como admninistrador de Ghost iniciar sesión con datos correctos, para crear un nueva página y visualizar la creación exitosa de esta en el sitio web.
+* **Scenario10.feature:** Como admninistrador de Ghost iniciar sesión con datos correctos, para crear un nuevo post público, luego modificar el nombre y contenido de texto del post y visualizar cambios aplicados.
+* **Scenario11.feature:** Como admninistrador de Ghost iniciar sesión con datos correctos, para crear una nueva página, posterior modificar el nombre y contenido de texto de esta.
+* **Scenario12.feature:** Como admninistrador de Ghost iniciar sesión con datos correctos, para invitar una nueva persona al staff del sitio y visualizar que se agrega efectivamente como contribuidor.
+
 ## Instrucciones de Instalación de Ghost V4.42.0
 <img src="https://user-images.githubusercontent.com/65487235/157884383-1b75feb1-45d8-4430-b636-3f7e06577347.png" alt="Ghost" width="200px">
 

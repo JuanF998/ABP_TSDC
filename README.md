@@ -110,6 +110,23 @@ Ghost se ejecuta en un proceso en segundo plano separado y permanece ejecutándo
 
 Ejecute la ayuda de Ghost para obtener una lista de los comandos disponibles o explore la [documentación completa de Ghost-CLI](https://ghost.org/docs/ghost-cli/).
 
+#### Adicionalmente, para ejecutar la versión 3.42.0 de Ghost tenga en cuenta las siguientes instrucciones:
+
+Primero, deberá instalar Docker en su computadora.
+
+*[Instalar Docker Desktop en Linux](https://docs.docker.com/desktop/linux/install/)*\
+*[Instalar Docker Desktop en Mac](https://docs.docker.com/desktop/mac/install/)*\
+*[Instalar Docker Desktop en Windows](https://docs.docker.com/desktop/windows/install/)*
+
+Ahora, deberá instalar la versión 3.42.0 Esto se puede realizar mediante los comandos de docker:
+
+```
+docker run -d -e url=http://localhost:3001 -p 3001:2368 --name ghost_3.42 ghost:3.42
+```
+
+*Esto desplegará en la siguiente dirección la versión de Ghost Admin:* Ghost 3.42\
+http://localhost:3001/ghost
+
 <!-- End GHOST documentation  -->
 
 ## Instrucciones de Ejecución de Pruebas con Kraken en la Versión 4.42 de Ghost

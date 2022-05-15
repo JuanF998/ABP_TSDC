@@ -10,7 +10,7 @@ async function executeTest() {
         return;
     }
     let resultInfo = {}
-    let scenario = "scenario11"
+    let scenario = "scenario12"
     for (b of browsers) {
         if (!b in ['chromium']) {
             return;

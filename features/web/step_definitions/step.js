@@ -69,6 +69,7 @@ When('I click signin', async function () {
     await this.driver.saveScreenshot('./features/Screenshot/scenario17/ClickSignin01.png');
     await this.driver.saveScreenshot('./features/Screenshot/scenario18/ClickSignin.png');
     await this.driver.saveScreenshot('./features/Screenshot/scenario19/ClickSignin.png');
+    await this.driver.saveScreenshot('./features/Screenshot/scenario19/ClickSignin2.png');
     await this.driver.saveScreenshot('./features/Screenshot/scenario20/ClickSignin.png');
     return await element.click();
 })
@@ -376,7 +377,7 @@ Then('I click on post settings', async function () {
 
 Then('I click on link to return to posts list without saving', async function () {
     let element = await this.driver.$('a.gh-editor-back-button');
-    await this.driver.saveScreenshot('./features/Screenshot/scenario12/ClickOnLinkToReturnToPstsListWithoutSaving.png');
+    await this.driver.saveScreenshot('./features/Screenshot/scenario13/ClickOnLinkToReturnToPstsListWithoutSaving.png');
     return await element.click();
 });
 
@@ -388,6 +389,7 @@ Then('I click on link to return to posts list without saving', async function ()
 Then('I click on the user account options', async function () {
     let element = await this.driver.$('div.gh-user-avatar');
     await this.driver.saveScreenshot('./features/Screenshot/scenario17/ClickOnTheUserAccountOptions.png');
+    await this.driver.saveScreenshot('./features/Screenshot/scenario19/ClickOnTheUserAccountOptions.png');
     return await element.click();
 });
 
@@ -405,6 +407,7 @@ Then('I click on the edit member name inputbox', async function () {
 Then('I click on the signout button', async function () {
     let element = await this.driver.$('a.user-menu-signout');
     await this.driver.saveScreenshot('./features/Screenshot/scenario17/ClickOnTheSignoutButton.png');
+    await this.driver.saveScreenshot('./features/Screenshot/scenario19/ClickOnTheSignoutButton.png');
     return await element.click();
 });
 
@@ -420,46 +423,59 @@ Then('I click on the button to revoke the member invitation', async function () 
 //     return await element.click();
 // });
 
-// Then('I click on nightshift togglee', async function () {
-//     let element = await this.driver.$('div.nightshift-toggle ');
-//     return await element.click();
-// });
+Then('I click on nightshift togglee', async function () {
+    let element = await this.driver.$('div.nightshift-toggle ');
+    await this.driver.saveScreenshot('./features/Screenshot/scenario19/ClickOnNightshiftTogglee.png');
+    return await element.click();
+});
 
 Then('I click on new tag', async function () {
     let element = await this.driver.$('a.gh-btn-primary');
     await this.driver.saveScreenshot('./features/Screenshot/scenario12/ClickOnNewTag.png');
+    await this.driver.saveScreenshot('./features/Screenshot/scenario14/ClickOnNewTag.png');
     await this.driver.saveScreenshot('./features/Screenshot/scenario15/ClickOnNewTag.png');
+    await this.driver.saveScreenshot('./features/Screenshot/scenario16/ClickOnNewTag.png');
+    await this.driver.saveScreenshot('./features/Screenshot/scenario20/ClickOnNewTag.png');
     return await element.click();
 });
 Then('I click on the redact tag name inputbox', async function () {
     let element = await this.driver.$('#tag-name');
-    await this.driver.saveScreenshot('./features/Screenshot/scenario12/ClickOnTheRedactTagNameInputbox.png');
+    await this.driver.saveScreenshot('./features/Screenshot/scenario14/ClickOnTheRedactTagNameInputbox.png');
     await this.driver.saveScreenshot('./features/Screenshot/scenario16/ClickOnTheRedactTagNameInputbox.png');
+    await this.driver.saveScreenshot('./features/Screenshot/scenario20/ClickOnTheRedactTagNameInputbox.png');
+    await this.driver.saveScreenshot('./features/Screenshot/scenario20/ClickOnTheRedactTagNameInputbox2.png');
     return await element.click();
 });
-// Then('I click on the redact tag name inputbox2', async function () {
-//     let element = await this.driver.$('#tag-description');
-//     return await element.click();
-// });
+Then('I click on the redact tag name inputbox2', async function () {
+    let element = await this.driver.$('#tag-description');
+    await this.driver.saveScreenshot('./features/Screenshot/scenario20/ClickOnTheRedactTtagNameInputbox2.png');
+    return await element.click();
+});
 Then('I click on the save tag button 1', async function () {
     let element = await this.driver.$('button.gh-btn-primary');
-    await this.driver.saveScreenshot('./features/Screenshot/scenario12/ClickOnTheSaveTagButton1.png');
+    await this.driver.saveScreenshot('./features/Screenshot/scenario14/ClickOnTheSaveTagButton1.png');
     await this.driver.saveScreenshot('./features/Screenshot/scenario16/ClickOnTheSaveTagButton1.png');
+    await this.driver.saveScreenshot('./features/Screenshot/scenario20/ClickOnTheSaveTagButton1.png');
+    await this.driver.saveScreenshot('./features/Screenshot/scenario20/ClickOnTheSaveTagButton12.png');
     return await element.click();
 });
 Then('I click select tag old', async function () {
     let element = await this.driver.$('li.gh-tags-list-item');
     await this.driver.saveScreenshot('./features/Screenshot/scenario16/ClickSelectTagOld.png');
+    await this.driver.saveScreenshot('./features/Screenshot/scenario20/ClickSelectTagOld.png');
+    await this.driver.saveScreenshot('./features/Screenshot/scenario20/ClickSelectTagOld2.png');
     return await element.click();
 });
 Then('I click on delete tag', async function () {
     let element = await this.driver.$('button.gh-btn-red');
     await this.driver.saveScreenshot('./features/Screenshot/scenario16/ClickOnDeleteTag.png');
+    await this.driver.saveScreenshot('./features/Screenshot/scenario20/ClickOnDeleteTag.png');
     return await element.click();
 });
 Then('I click confirm delete tag', async function () {
     let element = await this.driver.$('button.gh-btn.gh-btn-red.gh-btn-icon.ember-view');
     await this.driver.saveScreenshot('./features/Screenshot/scenario16/ClickConfirmDeleteTag.png');
+    await this.driver.saveScreenshot('./features/Screenshot/scenario20/ClickConfirmDeleteTag.png');
     return await element.click();
 });
 

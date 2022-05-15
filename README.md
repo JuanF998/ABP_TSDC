@@ -158,7 +158,7 @@ ejecutar las Instrucciones de Ejecución de Pruebas con Kraken en la Versión 4.
 
 Para más información puede consultar la documentación oficial de la herramienta Kraken visite el siguiente enlace: https://thesoftwaredesignlab.github.io/Kraken/
 
-## Generación de Reportes de Pruebas de Regresión Visual entre la Versiones 3.42 y 4.42 de Ghost
+## Generación de Reportes de Pruebas de Regresión Visual entre la Versiones 3.42 y 4.42 de Ghost con Resamble.js
 ```
 1. Desde la linea de comando, ingresar a la ruta Ghost_ABP_Kraken/features/Screenshot/Resamble_VRT
 2. Corra el comando npm install para instalar lo módulos necesarios para el proyecto de Resamble.js

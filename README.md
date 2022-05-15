@@ -75,7 +75,7 @@ Este repositorio contiene diferentes pruebas E2E realizadas a la apliación Ghos
 * **Scenario11.feature:** Como admninistrador de Ghost iniciar sesión con datos correctos, para crear una nueva página, posterior modificar el nombre y contenido de texto de esta.
 * **Scenario12.feature:** Como admninistrador de Ghost iniciar sesión con datos correctos, para invitar una nueva persona al staff del sitio y visualizar que se agrega efectivamente como contribuidor.
 
-## Instrucciones de Instalación de Ghost V4.42.0
+## Instrucciones de Instalación de Ghost V4.42
 <img src="https://user-images.githubusercontent.com/65487235/157884383-1b75feb1-45d8-4430-b636-3f7e06577347.png" alt="Ghost" width="200px">
 
 ### Inicio rápido 

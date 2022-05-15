@@ -156,4 +156,19 @@ ejecutar las Instrucciones de Ejecución de Pruebas con Kraken en la Versión 4.
 **Nota:** En la ubicación Ghost_ABP_Kraken/features/storage_all_features_342/ podrá encontrar todos los escenarios creados para nuestra ABP en su versión 3.42 y en la ubicación Ghost_ABP_Kraken/features/ solo aparece el escenario que se desea probar (Ejemplo: Scenario20.feature), por lo que si desea probar todos los escenarios debe copiar de la carpeta storage_all_features_342 el escenario a probar, pegarlo en la carpeta features y eliminar el escenario que estaba previamente en esa carpeta para probar el nuevo escenario pegado. Esto lo indicamos porque al tener todos los escenarios en la carpeta features y ejecutar el comado npx kraken-node run se genera un error al cambiar de escenario.
 
 
-Para más información puede consultar la documentación oficial de la herramienta Kraken visite el siguiente enlace: https://thesoftwaredesignlab.github.io/Kraken/ 
+Para más información puede consultar la documentación oficial de la herramienta Kraken visite el siguiente enlace: https://thesoftwaredesignlab.github.io/Kraken/
+
+## Generación de Reportes de Pruebas de Regresión Visual entre la Versiones 3.42 y 4.42 de Ghost
+```
+1. Desde la linea de comando, ingresar a la ruta Ghost_ABP_Kraken/features/Screenshot/Resamble_VRT
+2. Corra el comando npm install para instalar lo módulos necesarios para el proyecto de Resamble.js
+3. Abra en visual studio code el archivo index.js, allí encontrará una variable llamada "scenario" que se debe modificar con el nombre del scenario a generar el respectivo reporte de diferencias visuales entre la versiones evaluadas de Ghost para uno de los cinco scenarios seleccionados para VRT.
+4. Corra el comando node index.js y se generará el reporte html de diferencias visuales para el escenario específico en la ruta Ghost_ABP_Kraken/features/Screenshot/{nombre del scenario seleccionado en la anterior paso}.
+```
+**Nota:** Los reportes para los cinco scenarios seleccionados los prodrá encontrar en las siguientes rutas:
+
+* Scenario3.feature: Ghost_ABP_Kraken/features/Screenshot/scenario3
+* Scenario6.feature: Ghost_ABP_Kraken/features/Screenshot/scenario6
+* Scenario10.feature: Ghost_ABP_Kraken/features/Screenshot/scenario10
+* Scenario11.feature: Ghost_ABP_Kraken/features/Screenshot/scenario11
+* Scenario12.feature: Ghost_ABP_Kraken/features/Screenshot/scenario12

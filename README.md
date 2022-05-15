@@ -165,7 +165,7 @@ Para más información puede consultar la documentación oficial de la herramien
 3. Abra en visual studio code el archivo index.js, allí encontrará una variable llamada "scenario" que se debe modificar con el nombre del scenario a generar el respectivo reporte de diferencias visuales entre la versiones evaluadas de Ghost para uno de los cinco scenarios seleccionados para VRT.
 4. Corra el comando node index.js y se generará el reporte html de diferencias visuales para el escenario específico en la ruta Ghost_ABP_Kraken/features/Screenshot/{nombre del scenario seleccionado en la anterior paso}.
 ```
-**Nota:** Los reportes para los cinco scenarios seleccionados los prodrá encontrar en las siguientes rutas:
+**Nota:** Los reportes (report.html) para los cinco scenarios seleccionados los prodrá encontrar en las siguientes rutas:
 
 * Scenario3.feature: Ghost_ABP_Kraken/features/Screenshot/scenario3
 * Scenario6.feature: Ghost_ABP_Kraken/features/Screenshot/scenario6

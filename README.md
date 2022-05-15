@@ -118,7 +118,7 @@ Primero, deberá instalar Docker en su computadora.
 *[Instalar Docker Desktop en Mac](https://docs.docker.com/desktop/mac/install/)*\
 *[Instalar Docker Desktop en Windows](https://docs.docker.com/desktop/windows/install/)*
 
-Ahora, deberá instalar la versión 3.42. Esto se puede realizar mediante los comandos de docker:
+Ahora, deberá instalar la versión 3.42 de Ghost. Esto se puede realizar mediante los comandos de docker:
 
 ```
 docker run -d -e url=http://localhost:3001 -p 3001:2368 --name ghost_3.42 ghost:3.42

@@ -110,7 +110,7 @@ Ghost se ejecuta en un proceso en segundo plano separado y permanece ejecutándo
 
 Ejecute la ayuda de Ghost para obtener una lista de los comandos disponibles o explore la [documentación completa de Ghost-CLI](https://ghost.org/docs/ghost-cli/).
 
-#### Adicionalmente, para ejecutar la versión 3.42.0 de Ghost tenga en cuenta las siguientes instrucciones:
+### Adicionalmente, para ejecutar la versión 3.42.0 de Ghost tenga en cuenta las siguientes instrucciones:
 
 Primero, deberá instalar Docker en su computadora.
 
